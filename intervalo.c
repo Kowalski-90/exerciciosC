@@ -6,16 +6,16 @@ int main ()
 	setlocale (LC_ALL, "Portuguese");
 	float numero, inicio, fim, auxiliar;
 		
-	printf("--- Onde está o número? ---\n");
+	printf("--- Onde estÃ¡ o nÃºmero? ---\n");
 	printf("-----------------------------\n");
 	
-	printf("Digite o início do intervalo: ");	
+	printf("Digite o inÃ­cio do intervalo: ");	
 	scanf("%f", &inicio);
 	
 	printf("Digite o fim do intervalo: ");	
 	scanf("%f", &fim);
 	
-	printf("Digite um número: ");	
+	printf("Digite um nÃºmero: ");	
 	scanf("%f", &numero);
 	
 	if (inicio > fim) {
@@ -25,14 +25,14 @@ int main ()
 	}
 	
 	if (numero < fim && numero > inicio) {
-		printf ("O número está dentro do intervalo");
+		printf ("O nÃºmero estÃ¡ dentro do intervalo");
 	}	
 		else {
 			if (numero > fim || numero < inicio) {
-			printf("O número está fora do intervalo", numero);
+			printf("O nÃºmero estÃ¡ fora do intervalo", numero);
 			}
 				else {
-				printf("O número está nas extremidades do intervalo", numero);
+				printf("O nÃºmero estÃ¡ nas extremidades do intervalo", numero);
 				}	
 	}				
 }
