@@ -8,7 +8,7 @@ int main ()
 		
 	printf("--- Conta de celular ---\n");
 	printf("-----------------------------\n");
-	printf("Digite quantos minutos foram gastos no mês:");	
+	printf("Digite quantos minutos foram gastos no mÃªs:");	
 	scanf("%f", &minutos);
 	
 	minutos_50 = 50;
@@ -16,11 +16,11 @@ int main ()
 	
 	if (minutos <= 50)
 	{
-		printf("Sua conta de celular, esse mês, é de: R$ %.2f", minutos_50);				
+		printf("Sua conta de celular, esse mÃªs, Ã© de: R$ %.2f", minutos_50);				
 	}	
 	else
 	{
-		printf("Sua conta de celular, esse mês, é de: R$ %.2f", minutos_mais_50);
+		printf("Sua conta de celular, esse mÃªs, Ã© de: R$ %.2f", minutos_mais_50);
 	}
 	return 0;
 }
