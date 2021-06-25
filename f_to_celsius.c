@@ -3,22 +3,22 @@
  
 int main(void) 
 { 
-	setlocale (LC_ALL, "Portuguese"); // muda língua pra pt-br
+	setlocale (LC_ALL, "Portuguese"); // muda lÃ­ngua pra pt-br
 
-	//Declaração de variáveis	
+	//DeclaraÃ§Ã£o de variÃ¡veis	
 	float temp_f, temp_c;
 	
-	//Atribuição
+	//AtribuiÃ§Ã£o
 	printf("--- Conversor de Fahrenheit para Celsius ---\n");
-	printf("\nDigite a temperatura em Fahrenheit (°F): ");
+	printf("\nDigite a temperatura em Fahrenheit (Â°F): ");
 	scanf("%f", &temp_f);
 	
 	//Processamento e armazenamento 
 	temp_c = (temp_f - 32) / 1.8;
 	
-	//Saída do processamento
+	//SaÃ­da do processamento
 	printf("--------------------------------");
-	printf("\nA temperatura em Celsius é de %.1f °C", temp_c);
+	printf("\nA temperatura em Celsius Ã© de %.1f Â°C", temp_c);
 			
 	return 0;
 }
