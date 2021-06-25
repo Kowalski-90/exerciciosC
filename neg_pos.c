@@ -8,16 +8,16 @@ int main ()
 		
 	printf("--- Positivo ou negativo? ---\n");
 	printf("-----------------------------\n");
-	printf("Digite um número qualquer: ");	
+	printf("Digite um nÃºmero qualquer: ");	
 	scanf("%i", &x);
 	
 	if (x < 0)
 	{
-		printf("O número é negativo");		
+		printf("O nÃºmero Ã© negativo");		
 	}
 	else 
 	{
-	printf("O número é positivo");
+	printf("O nÃºmero Ã© positivo");
 	}
 		
 	return 0;
