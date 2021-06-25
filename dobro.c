@@ -3,22 +3,22 @@
  
 int main(void) 
 { 
-	setlocale (LC_ALL, "Portuguese"); // muda língua pra pt-br
+	setlocale (LC_ALL, "Portuguese"); // muda lÃ­ngua pra pt-br
 	
-	//Declaração de variáveis	
+	//DeclaraÃ§Ã£o de variÃ¡veis	
 	float numero, dobro;
 	
-	//Atribuição
+	//AtribuiÃ§Ã£o
 	printf("--- Calculadora de dobros ---\n");
-	printf("\nInsira um número: ", numero);
+	printf("\nInsira um nÃºmero: ", numero);
 	scanf("%f", &numero);		
 	
 	//Processamento e armazenamento em soma do resultado
 	dobro = numero * 2; 	
 	
-	//Saída do processamento
+	//SaÃ­da do processamento
 	printf("--------------------------------");
-	printf("\nO dobro do número digitado é = %.1f", dobro);
+	printf("\nO dobro do nÃºmero digitado Ã© = %.1f", dobro);
 			
 	return 0;
 }
