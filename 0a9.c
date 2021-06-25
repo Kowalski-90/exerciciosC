@@ -8,16 +8,16 @@ int main ()
 		
 	printf("--- Entre 0 e 9 ---\n");
 	printf("-----------------------------\n");
-	printf("Digite um número qualquer: ");	
+	printf("Digite um nÃºmero qualquer: ");	
 	scanf("%i", &x);
 	
 	if (x >= 1 && x <=9)
 	{
-		printf("O número se encontra entre 0 e 9");		
+		printf("O nÃºmero se encontra entre 0 e 9");		
 	}
 	else 
 	{
-	printf("O número não se encontra entre 0 e 9");
+	printf("O nÃºmero nÃ£o se encontra entre 0 e 9");
 	}
 		
 	return 0;
