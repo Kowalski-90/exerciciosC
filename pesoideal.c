@@ -13,43 +13,43 @@ int main () {
 	scanf("%i", &idade);
 	
 	if (idade < 12 || idade > 65) {
-		printf("Idade incompatível");
+		printf("Idade incompatÃ­vel");
 	}
 		else {
 			printf("Insira o seu peso atual, em kg: ");
 			scanf("%f", &peso);
 			printf("Insira a sua altura atual, em m: ");
 			scanf("%f", &altura);
-			printf("Insira o seu sexo biológico: [1] Masculino [2] Feminino ");
+			printf("Insira o seu sexo biolÃ³gico: [1] Masculino [2] Feminino ");
 			scanf("%f", &sexo);
 			
 				if (sexo == 1) {
 				peso_ideal = (72.7 * altura) - 62;
 				peso_ideal_max = peso_ideal * 0.05 + peso_ideal;
 				peso_ideal_min = (peso_ideal * 0.05 - peso_ideal) * -1;
-				printf("O seu peso ideal é entre %.2f e %.2f kg", peso_ideal_min, peso_ideal_max);
+				printf("O seu peso ideal Ã© entre %.2f e %.2f kg", peso_ideal_min, peso_ideal_max);
 				}
 					else {
 						peso_ideal = (62.1 * altura) - 48.7;
 						peso_ideal_max = peso_ideal * 0.05 + peso_ideal;
 						peso_ideal_min = (peso_ideal * 0.05 - peso_ideal) * -1;
-						printf("O seu peso ideal é entre %.2f kg e %.2f kg", peso_ideal_min, peso_ideal_max);
+						printf("O seu peso ideal Ã© entre %.2f kg e %.2f kg", peso_ideal_min, peso_ideal_max);
 					}	
 						if (peso > peso_ideal) {
-							printf ("\nVocê está acima de seu peso ideal");
+							printf ("\nVocÃª estÃ¡ acima de seu peso ideal");
 						}
 							else {
-								printf("\nVocê está abaixo de seu peso ideal");
+								printf("\nVocÃª estÃ¡ abaixo de seu peso ideal");
 							}
 								if (idade >= 12 && idade <= 17) {
-									printf("\nVocê é adolescente");
+									printf("\nVocÃª Ã© adolescente");
 								}
 									else {
 										if (idade >= 18 && idade <= 25) {
-											printf("\nVocê é jovem");
+											printf("\nVocÃª Ã© jovem");
 										}
 											else {
-												printf("\nVocê é adulto(a)");
+												printf("\nVocÃª Ã© adulto(a)");
 											}
 									}
 		}	
