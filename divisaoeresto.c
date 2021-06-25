@@ -3,28 +3,28 @@
  
 int main(void) 
 { 
-	setlocale (LC_ALL, "Portuguese"); // muda lÌngua pra pt-br
+	setlocale (LC_ALL, "Portuguese"); // muda l√≠ngua pra pt-br
 	
-	//DeclaraÁ„o de vari·veis	
+	//Declara√ß√£o de vari√°veis	
 	int numero1, numero2, divisao, resto;
 	
-	//AtribuiÁ„o
-	printf("--- Calculadora de divis„o e resto ---\n");
+	//Atribui√ß√£o
+	printf("--- Calculadora de divis√£o e resto ---\n");
 	
-	printf("\nDigite um n˙mero ");	
+	printf("\nDigite um n√∫mero ");	
 	scanf("%i", &numero1);
 	
-	printf("Digite outro n˙mero ");
+	printf("Digite outro n√∫mero ");
 	scanf("%i", &numero2);	
 	
 	//Processamento e armazenamento 
 	divisao = numero1 / numero2;
 	resto = numero1 % numero2;
 	
-	//SaÌda do processamento
+	//Sa√≠da do processamento
 	printf("--------------------------------");
-	printf("\nO resultado da divis„o È = %i", divisao);
-	printf("\nO resto da divis„o È = %i", resto);
+	printf("\nO resultado da divis√£o √© = %i", divisao);
+	printf("\nO resto da divis√£o √© = %i", resto);
 			
 	return 0;
 }
