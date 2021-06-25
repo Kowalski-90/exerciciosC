@@ -3,24 +3,24 @@
  
 int main(void) 
 { 
-	setlocale (LC_ALL, "Portuguese"); // muda língua pra pt-br
+	setlocale (LC_ALL, "Portuguese"); // muda lÃ­ngua pra pt-br
 	
-	//Declaração de variáveis	
+	//DeclaraÃ§Ã£o de variÃ¡veis	
 	float numero1, numero2, media;
 	
-	//Atribuição
-	printf("--- Calculadora de média entre dois valores ---\n");
-	printf("\nDigite um número ");
+	//AtribuiÃ§Ã£o
+	printf("--- Calculadora de mÃ©dia entre dois valores ---\n");
+	printf("\nDigite um nÃºmero ");
 	scanf("%f", &numero1);
-	printf("Digite outro número ");
+	printf("Digite outro nÃºmero ");
 	scanf("%f", &numero2);	
 	
 	//Processamento e armazenamento 
 	media = (numero1 + numero2) / 2.0;
 	
-	//Saída do processamento
+	//SaÃ­da do processamento
 	printf("--------------------------------");
-	printf("\nA média entre os números digitados é = %.1f", media);
+	printf("\nA mÃ©dia entre os nÃºmeros digitados Ã© = %.1f", media);
 			
 	return 0;
 }
