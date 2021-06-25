@@ -6,7 +6,7 @@ int main ()
 	setlocale (LC_ALL, "Portuguese");
 	int ano;
 		
-	printf("--- Esse ano È (foi) bissexto? ---\n");
+	printf("--- Esse ano √© (foi) bissexto? ---\n");
 	printf("-----------------------------\n");
 	printf("Digite o ano, com quatro digitos: ");	
 	scanf("%d", &ano);
@@ -19,7 +19,7 @@ int main ()
 	else
 	{
 		printf("----------------------");
-		printf("\nAno n„o bissexto", ano);
+		printf("\nAno n√£o bissexto", ano);
 	}
 	return 0;
 }
