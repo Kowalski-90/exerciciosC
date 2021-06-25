@@ -3,12 +3,12 @@
  
 int main(void) 
 { 
-	setlocale (LC_ALL, "Portuguese"); // muda lÌngua pra pt-br
+	setlocale (LC_ALL, "Portuguese"); // muda l√≠ngua pra pt-br
 	
-	//DeclaraÁ„o de vari·veis	
+	//Declara√ß√£o de vari√°veis	
 	int ano_nasc, ano_atual, dias_vida;
 	
-	//AtribuiÁ„o
+	//Atribui√ß√£o
 	printf("--- Calculadora de dias de vida ---\n");
 	printf("\nDigite o ano de nascimento ");
 	scanf("%i", &ano_nasc);
@@ -18,9 +18,9 @@ int main(void)
 	//Processamento e armazenamento 
 	dias_vida = (ano_atual - ano_nasc) * 12 * 30;
 	
-	//SaÌda do processamento
+	//Sa√≠da do processamento
 	printf("--------------------------------");
-	printf("\nSeus dias de vida atÈ hoje s„o, aproximadamente, %i", dias_vida);
+	printf("\nSeus dias de vida at√© hoje s√£o, aproximadamente, %i", dias_vida);
 			
 	return 0;
 }
