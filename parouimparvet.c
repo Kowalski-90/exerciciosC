@@ -5,13 +5,13 @@
 int main() {
 	setlocale(LC_ALL, "Portuguese");
 	
-	printf("--- Par ou ímpar ---\n");
+	printf("--- Par ou Ã­mpar ---\n");
 	printf("--------------------\n");
 	
 	int i, A[10], pares = 0, impares = 0, media, soma_pares, prod_impares = 1;
 	
 	for(i = 1; i <= TAM; i++) {
-		printf("\nDigite um número para o %iº valor: ", i);
+		printf("\nDigite um nÃºmero para o %iÂº valor: ", i);
 		scanf("%i", &A[i]);	
 	}
 	
@@ -26,8 +26,8 @@ int main() {
 	}
 	
 	media = soma_pares / pares;		
-	printf("\nA média dos elementos de índices pares foi %i", media);	
-	printf("\nO produto dos elementos de índices ímpares foi %i", prod_impares);	
+	printf("\nA mÃ©dia dos elementos de Ã­ndices pares foi %i", media);	
+	printf("\nO produto dos elementos de Ã­ndices Ã­mpares foi %i", prod_impares);	
 	
 	return 0;	
 }
