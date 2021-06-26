@@ -29,7 +29,7 @@ int main() {
 		printf("\n");
 	}	
 	
-	printf("\nA soma dos elementos da matriz é %i", soma);
+	printf("\nA soma dos elementos da matriz Ã© %i", soma);
 		
 	return 0;
 }
