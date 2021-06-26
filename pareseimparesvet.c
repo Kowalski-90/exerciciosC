@@ -4,17 +4,17 @@
 int main() {
 	setlocale (LC_ALL, "Portuguese");
 	
-	printf("--- Pares e Õmpares ---\n");
+	printf("--- Pares e √çmpares ---\n");
 	printf("-----------------------\n");
 	
 	int i, j = 0, A[10], A1[10], A2[10], aux, aux2;
 	
 	for (i = 1; i <= 10; i++){
-		printf ("Digite um n˙mero para o VetorA[%i]: ", i);
+		printf ("Digite um n√∫mero para o VetorA[%i]: ", i);
 		scanf ("%i", &A[i]);
 	}
 	
-	printf("\nValores pares [A1] e Ìmpares [A2] digitados: \n");
+	printf("\nValores pares [A1] e √≠mpares [A2] digitados: \n");
 	printf ("\nA1:");
 	
 	for (i = 0; i < 10; i++) {
