@@ -5,13 +5,13 @@ int main () {
 	
 	setlocale(LC_ALL, "Portuguese");
 	
-	printf("--- MÉDIA DA TURMA DE ADS ---\n");
+	printf("--- MÃ‰DIA DA TURMA DE ADS ---\n");
 	printf("-------------------------------------------\n");
 	
 	int i, j, qtde_alunos, qtde_disciplinas;
 	float nota, notas, media;
 	
-	printf("Digite a quantidade de alunos do 3º semestre: ");
+	printf("Digite a quantidade de alunos do 3Âº semestre: ");
 	scanf("%i", &qtde_alunos);	
 	
 	for (i = 1; i <= qtde_alunos; i++) {
@@ -23,13 +23,13 @@ int main () {
 		scanf("%i", &qtde_disciplinas);
 		
 		for (j = 1; j <= qtde_disciplinas; j++) {		
-			printf("\nDigite a média da disciplina %i ", j);
+			printf("\nDigite a mÃ©dia da disciplina %i ", j);
 			scanf("%f", &nota);
 			
 			notas = notas + nota;
 		}			
 		
-		printf("\nA média do aluno %i foi de %.2f", i, notas / qtde_disciplinas);
+		printf("\nA mÃ©dia do aluno %i foi de %.2f", i, notas / qtde_disciplinas);
 	}		
 	return 0;
 }
