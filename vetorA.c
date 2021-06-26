@@ -4,7 +4,7 @@
 int main() {
 	setlocale(LC_ALL, "Portuguese");
 	
-	printf("--- Operação com vetores ---\n");
+	printf("--- OperaÃ§Ã£o com vetores ---\n");
 	printf("----------------------------\n");
 	
 	float vetorA[12], vetorB[12];
