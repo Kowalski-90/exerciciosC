@@ -4,12 +4,12 @@
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 	
-	printf("--- Palíndromo numérico ---\n");
+	printf("--- PalÃ­ndromo numÃ©rico ---\n");
 	printf("---------------------------\n");
 	
 	int i = 0, digitado[i], num, invertido, digito;
 	 
-	printf("Digite um número inteiro (sem vírgulas): ");
+	printf("Digite um nÃºmero inteiro (sem vÃ­rgulas): ");
 	scanf("%d",&digitado[i]);
 	 
 	num = digitado[i]; 
@@ -22,10 +22,10 @@ int main(){
 	}
 	 
 	if(digitado[i] == invertido){
-		printf("\nO número digitado é palíndromo");
+		printf("\nO nÃºmero digitado Ã© palÃ­ndromo");
 	}	   
 	else{
-		printf("\nO número digitado não é palíndromo");
+		printf("\nO nÃºmero digitado nÃ£o Ã© palÃ­ndromo");
 	}
 	 
 	return 0;    
