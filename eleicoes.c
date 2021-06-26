@@ -4,15 +4,15 @@
 int main () {
 	setlocale(LC_ALL,"Portuguese");
 	
-	printf("--- ELEI«’ES MUNICIPAIS - BOR¡ / SP ---\n");
+	printf("--- ELEI√á√ïES MUNICIPAIS - BOR√Å / SP ---\n");
 	printf("---------------------------------------\n");
 	
 	int voto, votos_jose, votos_maria, votos_joao, brancos, nulos, votos_vencedor = 0;
 	float porcentagem_eleitores, total_eleitores;
 	
 	do {
-		printf("\nVote conforme as opÁıes disponÌveis: [1] JosÈ [2] Maria [3] Jo„o [4] Branco [5] Nulo [0] Sair");
-		printf("\nOpÁ„o escolhida: ");
+		printf("\nVote conforme as op√ß√µes dispon√≠veis: [1] Jos√© [2] Maria [3] Jo√£o [4] Branco [5] Nulo [0] Sair");
+		printf("\nOp√ß√£o escolhida: ");
 		scanf("%i", &voto);
 		total_eleitores++;
 	
@@ -56,24 +56,24 @@ int main () {
 	porcentagem_eleitores = (votos_vencedor / total_eleitores) * 100;
 	
 	printf("\n ---  RESULTADO FINAL   ---");
-	printf("\n ---  VOTOS JOS…: %i    ---", votos_jose);
+	printf("\n ---  VOTOS JOS√â: %i    ---", votos_jose);
 	printf("\n ---  VOTOS MARIA: %i   ---", votos_maria);
-	printf("\n ---  VOTOS JO√O: %i    ---", votos_joao);
+	printf("\n ---  VOTOS JO√ÉO: %i    ---", votos_joao);
 	printf("\n ---  VOTOS BRANCOS: %i ---", brancos);
 	printf("\n ---  VOTOS NULOS: %i   ---", nulos);
 	
 		if(votos_jose == votos_vencedor) {
-			printf("\nO(a) candidato(a) mais votado(a) foi JosÈ com %.2f por cento dos votos", porcentagem_eleitores);
-			printf("\nO(a) candidato(a) recebeu %i votos v·lidos", votos_jose);
+			printf("\nO(a) candidato(a) mais votado(a) foi Jos√© com %.2f por cento dos votos", porcentagem_eleitores);
+			printf("\nO(a) candidato(a) recebeu %i votos v√°lidos", votos_jose);
 		}
 			else {
 				if(votos_maria == votos_vencedor) {
 					printf("\nO(a) candidato(a) mais votado(a) foi Maria com %.2f por cento dos votos", porcentagem_eleitores);
-					printf("\nO(a) candidato(a) recebeu %i votos v·lidos", votos_maria);
+					printf("\nO(a) candidato(a) recebeu %i votos v√°lidos", votos_maria);
 				}
 					else {
-						printf("\nO(a) candidato(a) mais votado(a) foi Jo„o com %.2f por cento dos votos", porcentagem_eleitores);
-						printf("\nO(a) candidato(a) recebeu %i votos v·lidos", votos_joao);
+						printf("\nO(a) candidato(a) mais votado(a) foi Jo√£o com %.2f por cento dos votos", porcentagem_eleitores);
+						printf("\nO(a) candidato(a) recebeu %i votos v√°lidos", votos_joao);
 					}
 			}
 	
