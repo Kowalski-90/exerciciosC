@@ -11,7 +11,7 @@ int main () {
 	float numero;	
 	
 	for (i = 0; i < 10; i++) {
-		printf("Digite um número: ");
+		printf("Digite um nÃºmero: ");
 		scanf("%f", &numero);
 		
 		if(numero > 0) {
@@ -24,8 +24,8 @@ int main () {
 			}
 	}
 	
-	printf("Foram digitados %i números negativos", quant_neg);
-	printf("\nForam digitados %i números positivos", quant_pos);
+	printf("Foram digitados %i nÃºmeros negativos", quant_neg);
+	printf("\nForam digitados %i nÃºmeros positivos", quant_pos);
 	
 	return 0;
 }
