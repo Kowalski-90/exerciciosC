@@ -31,7 +31,7 @@ int main() {
 		printf("\n");
 	}	
 	
-	printf("\nO maior elemento da matriz é %i", maior);
+	printf("\nO maior elemento da matriz Ã© %i", maior);
 		
 	return 0;
 }
