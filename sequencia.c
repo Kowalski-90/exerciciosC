@@ -5,22 +5,22 @@
 int main() {
 	setlocale(LC_ALL, "Portuguese");
 	
-	printf("--- Ocorrência na sequência ---\n");
+	printf("--- OcorrÃªncia na sequÃªncia ---\n");
 	printf("-------------------------------\n");
 	
 	int n, i, j, comprimento, conta, vezes;
 	float sequencia[TAM];
 	
-	printf("\nDigite o número de elementos da sequência: ");
+	printf("\nDigite o nÃºmero de elementos da sequÃªncia: ");
 	scanf("%d", &n);
 	
-	printf("Digite uma sequência de %d números reais: ", n);
+	printf("Digite uma sequÃªncia de %d nÃºmeros reais: ", n);
 	
 	for (i = 0; i < n; i++){
 		scanf("%f", &sequencia[i]);	
 	}
 	
-	printf("\nOcorrências na sequência: ");
+	printf("\nOcorrÃªncias na sequÃªncia: ");
 	  
 	for (i = 0; i < n; i++) {	    
 	  vezes = 1;
