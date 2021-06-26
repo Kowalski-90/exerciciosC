@@ -11,9 +11,9 @@ int main () {
 	float salario, maior_salario, aux_salario, percentual, soma_salarios = 0;
 	
 	for (i = 1; i <= habitantes; i++) {
-		printf("Digite o número de filhos do habitante %i: ", i);
+		printf("Digite o nÃºmero de filhos do habitante %i: ", i);
 		scanf("%i", &filhos);
-		printf("Digite o salário do habitante %i: R$ ", i);
+		printf("Digite o salÃ¡rio do habitante %i: R$ ", i);
 		scanf("%f", &salario);
 		
 		soma_salarios = soma_salarios + salario;
@@ -33,10 +33,10 @@ int main () {
 			
 	}		
 	
-	printf("\nO maior salário é de: R$ %.2f", maior_salario);
-	printf("\nA média salarial é de: R$ %.2f", soma_salarios / habitantes);
-	printf("\nA média de filhos é de %i filhos por casal", soma_filhos / habitantes);
-	printf("\nA porcentagem de habitantes que ganha até R$ 500,00 é de %.2f porcento", (aux_salario * 100) / habitantes);
+	printf("\nO maior salÃ¡rio Ã© de: R$ %.2f", maior_salario);
+	printf("\nA mÃ©dia salarial Ã© de: R$ %.2f", soma_salarios / habitantes);
+	printf("\nA mÃ©dia de filhos Ã© de %i filhos por casal", soma_filhos / habitantes);
+	printf("\nA porcentagem de habitantes que ganha atÃ© R$ 500,00 Ã© de %.2f porcento", (aux_salario * 100) / habitantes);
 	
 	return 0;
 			
