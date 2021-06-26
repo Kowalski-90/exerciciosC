@@ -10,7 +10,7 @@ int main(){
 	printf("---------------------\n");
 
 	for(i = 0; i < 10; i++){
-		printf("Digite um número para A[%i]", i);
+		printf("Digite um nÃºmero para A[%i]", i);
 		scanf("%i", &A[i]);
 		if(A[i] == B[i]){
 			B[i] = C[i];
@@ -29,7 +29,7 @@ int main(){
 	}
 		
 	
-	printf("\nPosições: C[%i] ", C[i]);	
+	printf("\nPosiÃ§Ãµes: C[%i] ", C[i]);	
 	
 	
 	
