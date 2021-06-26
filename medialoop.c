@@ -8,12 +8,12 @@ int main() {
 	int i, decisao;
 	float numero, maior_num, soma = 0, media;
 	
-	printf("--- Média numérica ---\n");
+	printf("--- MÃ©dia numÃ©rica ---\n");
 	printf("----------------------\n");
 	
 	i=0;
 	while (i < TAM) {
-		printf("\nDigite um número para formar a média: ");
+		printf("\nDigite um nÃºmero para formar a mÃ©dia: ");
 		scanf("%f", &numero);
 		
 		soma = soma + numero;
@@ -27,20 +27,20 @@ int main() {
    			maior_num = numero;
 		   }
 		
-		printf("\nDeseja informar mais um número? [1] Sim [2] Não");
+		printf("\nDeseja informar mais um nÃºmero? [1] Sim [2] NÃ£o");
 		scanf("%i", &decisao);
 		
 			if (decisao == 2) {
 				media = soma / TAM;
-				printf("\nA média dos números digitados é = %.2f", media);
-				printf("\nO maior número digitado foi %.2f", maior_num);
+				printf("\nA mÃ©dia dos nÃºmeros digitados Ã© = %.2f", media);
+				printf("\nO maior nÃºmero digitado foi %.2f", maior_num);
 				exit(0);
 			}				
 	}
 	
 	media = soma / TAM;
-	printf("\nA média dos números digitados é = %.2f", media);
-	printf("\nO maior número digitado foi %.2f", maior_num);
+	printf("\nA mÃ©dia dos nÃºmeros digitados Ã© = %.2f", media);
+	printf("\nO maior nÃºmero digitado foi %.2f", maior_num);
 	
 		
 	return 0;
