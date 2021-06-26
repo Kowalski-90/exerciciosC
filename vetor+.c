@@ -24,7 +24,7 @@ int main() {
 		soma_impar = soma_impar + vet[i];
 	}
 	
-	printf("\nSoma de ímpares = %.2f", soma_impar);
+	printf("\nSoma de Ã­mpares = %.2f", soma_impar);
 		
 	return 0;
 }
