@@ -9,7 +9,7 @@ int main () {
 	int num_tabuada, num_multiplicado;
 	int i;
 	
-	printf("Você deseja calcular a tabuada de qual número? ");
+	printf("VocÃª deseja calcular a tabuada de qual nÃºmero? ");
 	scanf("%i", &num_tabuada);
 	for (i = 0; i <= 10; i++) {
 		num_multiplicado = num_tabuada * i;		
