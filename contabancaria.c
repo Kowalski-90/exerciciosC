@@ -12,8 +12,8 @@ int main() {
     
     printf("Saldo inicial: R$ ");
     scanf("%f", &saldo_conta); 
-    printf("\nDigite a operação desejada: [1] Depósito [2] Retirada [3] Sair"); 
-    printf("\nOperação: ");
+    printf("\nDigite a operaÃ§Ã£o desejada: [1] DepÃ³sito [2] Retirada [3] Sair"); 
+    printf("\nOperaÃ§Ã£o: ");
     scanf("%i", &tipo_operacao); 
     
     while(tipo_operacao != 3) {
@@ -30,8 +30,8 @@ int main() {
 			}            
         }
 
-        printf("\nDigite a operação desejada: [1] Depósito [2] Retirada [3] Sair");
-        printf("\nOperação: ");
+        printf("\nDigite a operaÃ§Ã£o desejada: [1] DepÃ³sito [2] Retirada [3] Sair");
+        printf("\nOperaÃ§Ã£o: ");
         scanf("%i", &tipo_operacao); 
     } 
 
