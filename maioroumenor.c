@@ -11,7 +11,7 @@ int main () {
 	i = 0;
 	
 	for (i = 0; i < 10 ; i++) {
-		printf ("Digite um número: ");
+		printf ("Digite um nÃºmero: ");
 		scanf ("%i", &numero);
 	
 		if(i == 0) {
@@ -31,8 +31,8 @@ int main () {
 		}	
 	}		
 	
-	printf("\nO maior número digitado foi %i", maior_num);
-	printf("\nO menor número digitado foi %i", menor_num);
+	printf("\nO maior nÃºmero digitado foi %i", maior_num);
+	printf("\nO menor nÃºmero digitado foi %i", menor_num);
 	
 	return 0;
 }
