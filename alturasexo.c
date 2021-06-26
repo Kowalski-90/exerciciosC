@@ -13,7 +13,7 @@ int main() {
 	
 	for (i = 1; i <= pessoas; i++) {
 		
-		printf("Digite o sexo biológico: [1] Masculino [2] Feminino ");
+		printf("Digite o sexo biolÃ³gico: [1] Masculino [2] Feminino ");
 		scanf("%i", &sexo);	
 		printf("Digite a altura em metros: ");
 		scanf("%f", &altura);
@@ -38,19 +38,19 @@ int main() {
 	}	
 	
 		if (sexo_alt == 1) {
-			printf("\nA pessoa mais alta do grupo tem %.2f m e é do sexo masculino", maior_altura);
+			printf("\nA pessoa mais alta do grupo tem %.2f m e Ã© do sexo masculino", maior_altura);
 		}
 		
 			else {
-				printf ("\nA pessoa mais alta do grupo tem %.2f m e é do sexo feminino", maior_altura);
+				printf ("\nA pessoa mais alta do grupo tem %.2f m e Ã© do sexo feminino", maior_altura);
 			}
 			
 	
 	media_altura_mulheres = soma_alturas_f / somaf;
 	
-	printf("\nA menor altura é: %.2f m", menor_altura);
-	printf("\nA média de altura das mulheres é: %.2f m", media_altura_mulheres);
-	printf("\nO número total de homens no grupo é de: %.0f", somam);
+	printf("\nA menor altura Ã©: %.2f m", menor_altura);
+	printf("\nA mÃ©dia de altura das mulheres Ã©: %.2f m", media_altura_mulheres);
+	printf("\nO nÃºmero total de homens no grupo Ã© de: %.0f", somam);
 	
 	return 0;
 }
