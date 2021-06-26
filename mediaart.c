@@ -4,16 +4,16 @@
 int main () {
 	setlocale (LC_ALL, "Portuguese");
 	
-	printf("--- Média aritmética ---\n");
+	printf("--- MÃ©dia aritmÃ©tica ---\n");
 	printf("-------------------------\n");
 	
 	int i, tamanho;
 	float numeros, soma, media;
 	
-	printf("Quantos números você deseja digitar? ");
+	printf("Quantos nÃºmeros vocÃª deseja digitar? ");
 	scanf("%i", &tamanho);
 	soma = 0;
-	printf("Quais são os números? ", tamanho);	
+	printf("Quais sÃ£o os nÃºmeros? ", tamanho);	
 	
 	for (i = 0; i < tamanho; i++) {
 		scanf("%f", &numeros);
@@ -21,7 +21,7 @@ int main () {
 	}
 	
 	media = soma / tamanho;
-	printf("\nA média aritmética dos números solicitados é = %.2f", media);
+	printf("\nA mÃ©dia aritmÃ©tica dos nÃºmeros solicitados Ã© = %.2f", media);
 	
 	return 0;
 }
