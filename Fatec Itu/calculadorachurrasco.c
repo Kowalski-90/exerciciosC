@@ -2,33 +2,33 @@
 #include <locale.h> //(biblioteca para pt-br)
 
 /*
-Desenvolva uma aplicaÁ„o que receba a quantidade de homens, mulheres
-e crianÁas que ir„o participar de um churrasco.
-O seu churrasco dever· ter 10 itens, entre comidas e bebidas.
-Calcule e  mostre a quantidade de itens que dever„o ser comprados, considerando que homens, 
-mulheres e crianÁas consomem esses itens de formas diferentes. 
-Por exemplo, homens bebem mais cerveja que mulheres na mÈdia. CrianÁas n„o consomem cerveja. etc.
+Desenvolva uma aplica√ß√£o que receba a quantidade de homens, mulheres
+e crian√ßas que ir√£o participar de um churrasco.
+O seu churrasco dever√° ter 10 itens, entre comidas e bebidas.
+Calcule e  mostre a quantidade de itens que dever√£o ser comprados, considerando que homens, 
+mulheres e crian√ßas consomem esses itens de formas diferentes. 
+Por exemplo, homens bebem mais cerveja que mulheres na m√©dia. Crian√ßas n√£o consomem cerveja. etc.
 No final, mostrar uma lista de compras com o total de cada item em quilos, litros ou unidades.
 */
 
 int main(void) 
 { 
-	setlocale (LC_ALL, "Portuguese"); // muda lÌngua pra pt-br
+	setlocale (LC_ALL, "Portuguese"); // muda l√≠ngua pra pt-br
 	
-	//DeclaraÁ„o de vari·veis	
+	//Declara√ß√£o de vari√°veis	
 	int num_homens, num_mulheres, num_criancas;
 	
 	float carne_homens, carne_mulheres, carne_criancas, cerv_homens, cerv_mulheres, refri_homens, refri_mulheres, refri_criancas,
 	alho_homens, alho_mulheres, alho_criancas, arroz_homens, arroz_mulheres, arroz_criancas, maio_homens, maio_mulheres, maio_criancas,
 	soma_carnes, soma_outras_carnes, soma_cerv, soma_refri, soma_alho, soma_arroz, soma_maio, bovino, frango, porco, coracao, linguica;
 		
-	//AtribuiÁ„o
+	//Atribui√ß√£o
 	printf("--- Lista de compras para churrasco ---\n");
-	printf("\nInsira o n˙mero de homens: ");
+	printf("\nInsira o n√∫mero de homens: ");
 	scanf("%i", &num_homens);
-	printf("Insira o n˙mero de mulheres: ");
+	printf("Insira o n√∫mero de mulheres: ");
 	scanf("%i", &num_mulheres);
-	printf("Insira o n˙mero de crianÁas: ");
+	printf("Insira o n√∫mero de crian√ßas: ");
 	scanf("%i", &num_criancas);	
 			
 	//Processamento e armazenamento 
@@ -73,21 +73,21 @@ int main(void)
 	
 	soma_alho = alho_homens + alho_mulheres + alho_criancas;
 		
-	//SaÌda do processamento
+	//Sa√≠da do processamento
 	printf("--------------------------------");
-	printf("\nA quantidade total de carne È = %.3f kg, sendo, aproximadamente: \n", soma_carnes);
-	printf("\n%.3f kg de carne de boi (alcatra, picanha, contra filÈ, costela)", bovino);
+	printf("\nA quantidade total de carne √© = %.3f kg, sendo, aproximadamente: \n", soma_carnes);
+	printf("\n%.3f kg de carne de boi (alcatra, picanha, contra fil√©, costela)", bovino);
 	printf("\n%.3f kg de carne de frango (coxa e sobrecoxa)", frango);
 	printf("\n%.3f kg de carne de porco (panceta)", porco);
-	printf("\n%.3f kg de coraÁ„o de frango", coracao);
-	printf("\n%.3f kg de linguiÁa (toscana, frango)", linguica);	
+	printf("\n%.3f kg de cora√ß√£o de frango", coracao);
+	printf("\n%.3f kg de lingui√ßa (toscana, frango)", linguica);	
 	printf("\n--------------------------------");
-	printf("\nA quantidade total de arroz cozido È de %.2f kg", soma_arroz);
-	printf("\nA quantidade total de maionese È de %.2f kg", soma_maio);
-	printf("\nA quantidade total de p„o de alho È de %.f pacotes com 5 unidades", soma_alho/5);
+	printf("\nA quantidade total de arroz cozido √© de %.2f kg", soma_arroz);
+	printf("\nA quantidade total de maionese √© de %.2f kg", soma_maio);
+	printf("\nA quantidade total de p√£o de alho √© de %.f pacotes com 5 unidades", soma_alho/5);
 	printf("\n--------------------------------");
-	printf("\nA quantidade total de cerveja È de %.f latas de 350 mL", soma_cerv);
-	printf("\nA quantidade total de refrigerante È de %.f garrafas de 2 L", soma_refri/2);	
+	printf("\nA quantidade total de cerveja √© de %.f latas de 350 mL", soma_cerv);
+	printf("\nA quantidade total de refrigerante √© de %.f garrafas de 2 L", soma_refri/2);	
 	
 	return 0;
 }
@@ -95,24 +95,24 @@ int main(void)
 /* 
 carnes para homens 500g para cada
 carnes para mulheres 300g para cada
-carnes para crianÁas 150g para cada
+carnes para crian√ßas 150g para cada
 
 cerveja para homens 5 latinhas para cada
 cerveja para mulheres 3 latinhas para cada
 
 refrigerante para homens 2 L para 10
 refrigerante para mulheres 2 L para 10
-refrigerante para crianÁas 2 L para 5
+refrigerante para crian√ßas 2 L para 5
 
-p„o de alho para homens 3 para cada
-p„o de alho para mulheres 3 para cada
-p„o de alho para crianÁas 1 para cada
+p√£o de alho para homens 3 para cada
+p√£o de alho para mulheres 3 para cada
+p√£o de alho para crian√ßas 1 para cada
 
 arroz para homens 300 g para cada
 arroz para mulheres 100 g para cada
-arroz para crianÁas 50 g para cada
+arroz para crian√ßas 50 g para cada
 
 maionese para homens 100 g para cada
 maionese para mulheres 50 g para cada
-maionese para crianÁas 30 g para cada
+maionese para crian√ßas 30 g para cada
 */
