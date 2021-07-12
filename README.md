@@ -1,2 +1,2 @@
-# exerciciosC
-Exercícios em C diversos
+# Exercícios em C
+
